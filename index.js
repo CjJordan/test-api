@@ -1,5 +1,4 @@
 const express = require('express')
-const { Console } = require('node:console')
 const app = express()
 
 app.get('/', (req, res) => {

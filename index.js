@@ -3,6 +3,10 @@ const { Console } = require('node:console')
 const app = express()
 
 app.get('/', (req, res) => {
+   res.send('Hello There!')
+})
+
+app.get('/info', (req, res) => {
   console.log("HOST")
   console.log(req.get("host"))
   console.log(" ")
